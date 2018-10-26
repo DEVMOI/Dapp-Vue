@@ -1,0 +1,5 @@
+var dappvue = artifacts.require("./dappvue.sol");
+
+module.exports = function(deployer) {
+  deployer.deploy(dappvue);
+};

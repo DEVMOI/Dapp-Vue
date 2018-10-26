@@ -1,0 +1,97 @@
+{
+  "contractName": "Placeholder",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582087bec13ed05f128727b23b984baac6d3898ed1154f5cd1a8f2f61cd0b1dbfba70029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a7230582087bec13ed05f128727b23b984baac6d3898ed1154f5cd1a8f2f61cd0b1dbfba70029",
+  "sourceMap": "26:25:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:25:1;;;;;;;",
+  "deployedSourceMap": "26:25:1:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\n\ncontract Placeholder {\n\n}\n",
+  "sourcePath": "C:\\Users\\leftp\\Documents\\Github\\EtheriumProjects\\dapp-vue\\contracts\\placeholder.sol",
+  "ast": {
+    "absolutePath": "/C/Users/leftp/Documents/Github/EtheriumProjects/dapp-vue/contracts/placeholder.sol",
+    "exportedSymbols": {
+      "Placeholder": [
+        59
+      ]
+    },
+    "id": 60,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "Placeholder",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 60,
+        "src": "26:25:1"
+      }
+    ],
+    "src": "0:52:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/leftp/Documents/Github/EtheriumProjects/dapp-vue/contracts/placeholder.sol",
+    "exportedSymbols": {
+      "Placeholder": [
+        59
+      ]
+    },
+    "id": 60,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 59,
+        "linearizedBaseContracts": [
+          59
+        ],
+        "name": "Placeholder",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 60,
+        "src": "26:25:1"
+      }
+    ],
+    "src": "0:52:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-10-26T04:45:37.600Z"
+}
