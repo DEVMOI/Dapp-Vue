@@ -25,7 +25,8 @@ npm install
 ```
 
 ## Local Development
-Config Truggle.js Gile:
+Config Truggle.js File
+- Add your Infura Access Token and set your Mnemonic Values
 ```
 const HDWalletProvider = require("truffle-hdwallet-provider");
 // Hide in Secret/Secure FIle
@@ -34,9 +35,9 @@ const mnemonic = "";
 
 module.exports = {
   networks: {
-    ropsten: {
+    rinkeby: {
       provider: function() {
-        return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/<INFURA_Access_Token>")
+        return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/<INFURA_Access_Token>")
       },
       network_id: 3
     }   
@@ -50,7 +51,7 @@ truffle develop
 truffle migrate
 ```
 
-Using Truffle and Infura Rinkeby
+Using Truffle and Infura's Rinkeby Node
 ```
 truffle compile
 start ganache
