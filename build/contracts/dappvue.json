@@ -1,14 +1,14 @@
 {
   "contractName": "dappvue",
   "abi": [],
-  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058200facd282c324cbca5316c6efdfe442b670a891cbcb110dbee87c5233fb1ef9e80029",
-  "deployedBytecode": "0x6080604052600080fd00a165627a7a723058200facd282c324cbca5316c6efdfe442b670a891cbcb110dbee87c5233fb1ef9e80029",
-  "sourceMap": "26:21:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:21:1;;;;;;;",
-  "deployedSourceMap": "26:21:1:-;;;;;",
-  "source": "pragma solidity ^0.4.24;\n\ncontract dappvue {\n\n}\n",
-  "sourcePath": "C:\\Users\\leftp\\Documents\\Github\\EtheriumProjects\\dapp-vue\\contracts\\dappvue.sol",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820f9b1d8717012135f937d78242701e86a6a039c7e569d1406532c9810c105c0980029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820f9b1d8717012135f937d78242701e86a6a039c7e569d1406532c9810c105c0980029",
+  "sourceMap": "28:23:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:23:1;;;;;;;",
+  "deployedSourceMap": "28:23:1:-;;;;;",
+  "source": "pragma solidity ^0.4.24;\r\n\r\ncontract dappvue {\r\n\r\n}\r\n",
+  "sourcePath": "C:\\Users\\wcgate01\\Documents\\GitHub\\Dapp-Vue\\contracts\\dappvue.sol",
   "ast": {
-    "absolutePath": "/C/Users/leftp/Documents/Github/EtheriumProjects/dapp-vue/contracts/dappvue.sol",
+    "absolutePath": "/C/Users/wcgate01/Documents/GitHub/Dapp-Vue/contracts/dappvue.sol",
     "exportedSymbols": {
       "dappvue": [
         59
@@ -42,13 +42,13 @@
         "nodeType": "ContractDefinition",
         "nodes": [],
         "scope": 60,
-        "src": "26:21:1"
+        "src": "28:23:1"
       }
     ],
-    "src": "0:48:1"
+    "src": "0:53:1"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/leftp/Documents/Github/EtheriumProjects/dapp-vue/contracts/dappvue.sol",
+    "absolutePath": "/C/Users/wcgate01/Documents/GitHub/Dapp-Vue/contracts/dappvue.sol",
     "exportedSymbols": {
       "dappvue": [
         59
@@ -82,10 +82,10 @@
         "nodeType": "ContractDefinition",
         "nodes": [],
         "scope": 60,
-        "src": "26:21:1"
+        "src": "28:23:1"
       }
     ],
-    "src": "0:48:1"
+    "src": "0:53:1"
   },
   "compiler": {
     "name": "solc",
@@ -93,5 +93,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-26T04:52:01.807Z"
+  "updatedAt": "2018-10-26T16:45:31.444Z"
 }

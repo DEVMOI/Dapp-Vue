@@ -1,7 +1,9 @@
 # Dapp-Vue
 
 ## Introduction
-Dapp-Vue is a VueJS/Truffle Box created to speed the process of developing VueJs/Dapp Applications
+Dapp-Vue is a VueJS/Truffle Box created to speed the process of developing VueJs/Dapp Applications.
+
+Dev Server Hosted by [Infura](https://infura.io/)
 
 ## Built With
 > VueJS | Truffle
@@ -23,6 +25,24 @@ npm install
 ```
 
 ## Local Development
+Config Truggle.js Gile:
+```
+const HDWalletProvider = require("truffle-hdwallet-provider");
+// Hide in Secret/Secure FIle
+// This Link to generate https://iancoleman.io/bip39/
+const mnemonic = "";
+
+module.exports = {
+  networks: {
+    ropsten: {
+      provider: function() {
+        return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/<INFURA_Access_Token>")
+      },
+      network_id: 3
+    }   
+  }
+};
+```
 Using truffle:
 ```
 truffle compile
@@ -30,11 +50,11 @@ truffle develop
 truffle migrate
 ```
 
-Using Truffle and Ganache
+Using Truffle and Infura Rinkeby
 ```
 truffle compile
 start ganache
-truffle migrate
+truffle migrate --network rinkeny
 truffle console
 ```
 
